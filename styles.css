@@ -187,7 +187,7 @@ body {
 }
 .photo {
   display: grid;
-  grid-template-columns: 300px 300px 300px;
+  grid-template-columns: 200px 200px 300px;
   grid-template-rows: auto;
   grid-template-areas:
     "header header sidebar"
@@ -197,16 +197,36 @@ body {
   grid-area: "header";
 }
 .lance > img {
+  width: 100px;
+  height: 100px;
+  padding-right: 100px;
 }
 
 .mullen {
   grid-area: "header";
 }
 .mullen > img {
+  width: 100px;
+  height: 100px;
+  padding-left: 100px;
 }
 .tommy {
   grid-area: "sidebar";
 }
+.tommy > img {
+  width: 100px;
+  height: 100px;
+  padding-left: 100px;
+}
 .steve {
   grid-area: "footer";
+}
+.steve > img {
+  width: 100px;
+  height: 100px;
+  padding-bottom: 500px;
+  padding-left: 50px;
+}
+.skb {
+  display: flex;
 }
